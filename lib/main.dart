@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import '../pantallas/pantalla_bienvenida.dart';  // Asegúrate de importar la pantalla de bienvenida
 
 void main() {
-  runApp(MiAplicacion());
+  runApp(MyApp());
 }
 
-class MiAplicacion extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
